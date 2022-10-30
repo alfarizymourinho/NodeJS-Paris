@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Loader</title>
+    <style>
+        body {
+            background-color: #2A2734;
+        }
+
+        .cube {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(0deg);
+            animation: anim 2s infinite ease-out;
+            box-shadow: 0 ipx ipx rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12).0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+        }
+
+        .outercube {
+            width: 10vw;
+            height: 10vw;
+            background-color: #9B87FE;
+        }
+
+        .innercube {
+            width: 2.5vw;
+            height: 2.5vw;
+            background-color: #FFB870;
+        }
+
+        @keyframes anim {
+            0% {
+                transform: translate(-50%, -50%)rotate(0deg);
+            }
+
+            100% {
+                transform: translate(-50%, -50%)rotate(90deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outercube cube">
+        <div class="innerCube cube">
+            <div class="innerCube2 cube"></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+GET  http://localhost:7000
+
+###
+
+POST http://localhost:7000 
+Content-Type: application/json
+Accept: application/json
+
+{
+    "todo": "Aku Suka Anime"
+}
+
+###
+
+PUT http://localhost:7000 
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id":1,
+    "todo": "Seorang Wibu yg Berkarya"
+}
+
+###
+
+DELETE http://localhost:7000 
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id":0
+}

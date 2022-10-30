@@ -1,0 +1,13 @@
+POST http://localhost:5000
+Content-Type: application/json,
+Accept: application/json
+
+{
+    "firstName": "Al-farizy M",
+    "lastName": "Galindra",
+    "Apaaann tuhh ?": "Dimana titik tidak masuk akalnya ?",
+    "Awasss ada mobill !":"arrkkgghhh !",
+    "Mayat nya bau pak ustadz ":"iyah yah bau benget mayat nya,mungkin karna dosa semasa hidupnya ",
+    "AStagfirullah ibu-ibu,bapak-bapak ":"JANGAN BEGITU YAH ADIK-ADIK, WHAT THE FUCK MEN !!",
+    "Apa kah kamu melihat serigal ?":"Dimana ? Dimana ?, BANYAK NANYA LU BUTA LU !"
+}
